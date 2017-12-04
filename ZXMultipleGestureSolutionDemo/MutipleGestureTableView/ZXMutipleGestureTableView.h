@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZXMutipleGestureTableView.h
 //  ZXMultipleGestureSolutionDemo
 //
 //  Created by 郑旭 on 2017/12/4.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ZXMutipleGestureTableView : UITableView
 
 @end
-
