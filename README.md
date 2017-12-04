@@ -1,17 +1,17 @@
-#UI层级 
+# UI层级 
 UIScrollView     
 
 UIPageViewController
 
 UITableView   
 
-#####下面所讨论的一切基础是手势作用在底部tableView上面的而时候;
+##### 下面所讨论的一切基础是手势作用在底部tableView上面的而时候;
 
-#step1:   
+# step1:   
 正常情况下,多个手势重叠的时候,只会响应最上层的那个手势,这里的话就只会响应最上层tableView的手势;    
 
 
-#step2:         
+# step2:         
 允许手势向下传递并响应多个手势:  这样一来,在滚动tableView的时候,scrollView会跟随响应滚动事件;
 	
 	
@@ -28,7 +28,7 @@ UITableView
 
 
 
-##step3:状态分析
+## step3:状态分析
 `顶点状态`:规定的scrollView能向上滚动的最大位置;这里以绿色view顶部接触导航栏的时候为顶点;   
 `顶点状态判断`:      
 
@@ -36,8 +36,8 @@ UITableView
 
 rec.origin.y==0的时候代表顶点状态到达;
 
-##状态1:初始状态    
-![img](/Users/zhengxu/Desktop/屏幕快照 2017-12-04 下午7.43.36.png)
+## 状态1:初始状态    
+![img](https://github.com/czhen09/ZXMultipleGestureSolution/blob/master/RESOURCE/zt1.png)
 
 在这个状态下:      
 
@@ -45,20 +45,20 @@ rec.origin.y==0的时候代表顶点状态到达;
 * 向上滑动的时候:这个时候scrollView是没有到达目的顶点的,tableView和scrollView会同时向上滚动;那么我不能允许tableView向上滚动,即设置tableView始终在CGPointZero位置;    
 
 
-##状态2:顶点状态   
+## 状态2:顶点状态   
 
-![img](/Users/zhengxu/Desktop/屏幕快照 2017-12-04 下午7.43.52.png)    
+![img](https://github.com/czhen09/ZXMultipleGestureSolution/blob/master/RESOURCE/zt2.png)    
 
 
 即时紧接着状态1;向上滚动到达顶点状态;那么这个时候,scrollView肯定不能再继续滚动,将其位置固定在顶点状态位置,只能tableView能继续向上滑动;   
 
 
-##状态3:中间状态   
-![img](/Users/zhengxu/Desktop/屏幕快照 2017-12-04 下午7.44.04.png)    
+## 状态3:中间状态   
+![img](https://github.com/czhen09/ZXMultipleGestureSolution/blob/master/RESOURCE/zt3.png)    
 这个时候,只有是tableView没有到顶,但是scrollView到顶,那么都是限制scrollView在顶点状态位置,而tableView可以滚动的
 
 
-#step4:核心代码       
+# step4:核心代码       
 	#pragma mark - UIScrollViewDelegate
 	- (void)scrollViewDidScroll:(UIScrollView *)scrollView
 	{
@@ -96,7 +96,11 @@ rec.origin.y==0的时候代表顶点状态到达;
 	}
 	
 	
-#step5:总结  
+# step5:总结  
 为了解决手势冲突,需要让控件都能响应手势,但是同时响应的时候,又需要在适当时机限制偏移;scrollView和tableView无论如何只能一个滚动;用CGPointZero限制tableView的偏移;用CGPointMake(0, 200)(200指的是顶点状态scrollView的偏移)来限制scrollView的偏移;    
 
-如有不明,demo见;
+如有不明,demo见;    
+
+超链:   
+*   Json转模型Mac版[ESJsonFormatForMac](https://github.com/czhen09/ESJsonFormatForMac)    
+* 股票k线三方库[ZXKline](https://github.com/czhen09/ZXKline)
