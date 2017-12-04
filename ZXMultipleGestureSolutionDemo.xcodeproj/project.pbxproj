@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		248556601FD5427F004CE728 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485565F1FD5427F004CE728 /* AppDelegate.m */; };
+		248556631FD5427F004CE728 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248556621FD5427F004CE728 /* ViewController.m */; };
+		248556661FD5427F004CE728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248556641FD5427F004CE728 /* Main.storyboard */; };
+		248556681FD5427F004CE728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248556671FD5427F004CE728 /* Assets.xcassets */; };
+		2485566B1FD5427F004CE728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248556691FD5427F004CE728 /* LaunchScreen.storyboard */; };
+		2485566E1FD5427F004CE728 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2485566D1FD5427F004CE728 /* main.m */; };
+		248556781FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 248556771FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests.m */; };
+		248556831FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 248556821FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		248556741FD5427F004CE728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 248556531FD5427F004CE728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2485565A1FD5427F004CE728;
+			remoteInfo = ZXMultipleGestureSolutionDemo;
+		};
+		2485567F1FD5427F004CE728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 248556531FD5427F004CE728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2485565A1FD5427F004CE728;
+			remoteInfo = ZXMultipleGestureSolutionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2485565B1FD5427F004CE728 /* ZXMultipleGestureSolutionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXMultipleGestureSolutionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2485565E1FD5427F004CE728 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2485565F1FD5427F004CE728 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		248556611FD5427F004CE728 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		248556621FD5427F004CE728 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		248556651FD5427F004CE728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		248556671FD5427F004CE728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2485566A1FD5427F004CE728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2485566C1FD5427F004CE728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2485566D1FD5427F004CE728 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		248556731FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXMultipleGestureSolutionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		248556771FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXMultipleGestureSolutionDemoTests.m; sourceTree = "<group>"; };
+		248556791FD5427F004CE728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2485567E1FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXMultipleGestureSolutionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		248556821FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXMultipleGestureSolutionDemoUITests.m; sourceTree = "<group>"; };
+		248556841FD5427F004CE728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		248556581FD5427F004CE728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248556701FD5427F004CE728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2485567B1FD5427F004CE728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		248556521FD5427F004CE728 = {
+			isa = PBXGroup;
+			children = (
+				2485565D1FD5427F004CE728 /* ZXMultipleGestureSolutionDemo */,
+				248556761FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests */,
+				248556811FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests */,
+				2485565C1FD5427F004CE728 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2485565C1FD5427F004CE728 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2485565B1FD5427F004CE728 /* ZXMultipleGestureSolutionDemo.app */,
+				248556731FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests.xctest */,
+				2485567E1FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2485565D1FD5427F004CE728 /* ZXMultipleGestureSolutionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2485565E1FD5427F004CE728 /* AppDelegate.h */,
+				2485565F1FD5427F004CE728 /* AppDelegate.m */,
+				248556611FD5427F004CE728 /* ViewController.h */,
+				248556621FD5427F004CE728 /* ViewController.m */,
+				248556641FD5427F004CE728 /* Main.storyboard */,
+				248556671FD5427F004CE728 /* Assets.xcassets */,
+				248556691FD5427F004CE728 /* LaunchScreen.storyboard */,
+				2485566C1FD5427F004CE728 /* Info.plist */,
+				2485566D1FD5427F004CE728 /* main.m */,
+			);
+			path = ZXMultipleGestureSolutionDemo;
+			sourceTree = "<group>";
+		};
+		248556761FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				248556771FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests.m */,
+				248556791FD5427F004CE728 /* Info.plist */,
+			);
+			path = ZXMultipleGestureSolutionDemoTests;
+			sourceTree = "<group>";
+		};
+		248556811FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				248556821FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests.m */,
+				248556841FD5427F004CE728 /* Info.plist */,
+			);
+			path = ZXMultipleGestureSolutionDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2485565A1FD5427F004CE728 /* ZXMultipleGestureSolutionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248556871FD5427F004CE728 /* Build configuration list for PBXNativeTarget "ZXMultipleGestureSolutionDemo" */;
+			buildPhases = (
+				248556571FD5427F004CE728 /* Sources */,
+				248556581FD5427F004CE728 /* Frameworks */,
+				248556591FD5427F004CE728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXMultipleGestureSolutionDemo;
+			productName = ZXMultipleGestureSolutionDemo;
+			productReference = 2485565B1FD5427F004CE728 /* ZXMultipleGestureSolutionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		248556721FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2485568A1FD5427F004CE728 /* Build configuration list for PBXNativeTarget "ZXMultipleGestureSolutionDemoTests" */;
+			buildPhases = (
+				2485566F1FD5427F004CE728 /* Sources */,
+				248556701FD5427F004CE728 /* Frameworks */,
+				248556711FD5427F004CE728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				248556751FD5427F004CE728 /* PBXTargetDependency */,
+			);
+			name = ZXMultipleGestureSolutionDemoTests;
+			productName = ZXMultipleGestureSolutionDemoTests;
+			productReference = 248556731FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2485567D1FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2485568D1FD5427F004CE728 /* Build configuration list for PBXNativeTarget "ZXMultipleGestureSolutionDemoUITests" */;
+			buildPhases = (
+				2485567A1FD5427F004CE728 /* Sources */,
+				2485567B1FD5427F004CE728 /* Frameworks */,
+				2485567C1FD5427F004CE728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				248556801FD5427F004CE728 /* PBXTargetDependency */,
+			);
+			name = ZXMultipleGestureSolutionDemoUITests;
+			productName = ZXMultipleGestureSolutionDemoUITests;
+			productReference = 2485567E1FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		248556531FD5427F004CE728 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "郑旭";
+				TargetAttributes = {
+					2485565A1FD5427F004CE728 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					248556721FD5427F004CE728 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2485565A1FD5427F004CE728;
+					};
+					2485567D1FD5427F004CE728 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2485565A1FD5427F004CE728;
+					};
+				};
+			};
+			buildConfigurationList = 248556561FD5427F004CE728 /* Build configuration list for PBXProject "ZXMultipleGestureSolutionDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 248556521FD5427F004CE728;
+			productRefGroup = 2485565C1FD5427F004CE728 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2485565A1FD5427F004CE728 /* ZXMultipleGestureSolutionDemo */,
+				248556721FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests */,
+				2485567D1FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		248556591FD5427F004CE728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2485566B1FD5427F004CE728 /* LaunchScreen.storyboard in Resources */,
+				248556681FD5427F004CE728 /* Assets.xcassets in Resources */,
+				248556661FD5427F004CE728 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248556711FD5427F004CE728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2485567C1FD5427F004CE728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		248556571FD5427F004CE728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248556631FD5427F004CE728 /* ViewController.m in Sources */,
+				2485566E1FD5427F004CE728 /* main.m in Sources */,
+				248556601FD5427F004CE728 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2485566F1FD5427F004CE728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248556781FD5427F004CE728 /* ZXMultipleGestureSolutionDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2485567A1FD5427F004CE728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248556831FD5427F004CE728 /* ZXMultipleGestureSolutionDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		248556751FD5427F004CE728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2485565A1FD5427F004CE728 /* ZXMultipleGestureSolutionDemo */;
+			targetProxy = 248556741FD5427F004CE728 /* PBXContainerItemProxy */;
+		};
+		248556801FD5427F004CE728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2485565A1FD5427F004CE728 /* ZXMultipleGestureSolutionDemo */;
+			targetProxy = 2485567F1FD5427F004CE728 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		248556641FD5427F004CE728 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248556651FD5427F004CE728 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		248556691FD5427F004CE728 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2485566A1FD5427F004CE728 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		248556851FD5427F004CE728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		248556861FD5427F004CE728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		248556881FD5427F004CE728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZXMultipleGestureSolutionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZX.ZXMultipleGestureSolutionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		248556891FD5427F004CE728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZXMultipleGestureSolutionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZX.ZXMultipleGestureSolutionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2485568B1FD5427F004CE728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZXMultipleGestureSolutionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZX.ZXMultipleGestureSolutionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXMultipleGestureSolutionDemo.app/ZXMultipleGestureSolutionDemo";
+			};
+			name = Debug;
+		};
+		2485568C1FD5427F004CE728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZXMultipleGestureSolutionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZX.ZXMultipleGestureSolutionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXMultipleGestureSolutionDemo.app/ZXMultipleGestureSolutionDemo";
+			};
+			name = Release;
+		};
+		2485568E1FD5427F004CE728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZXMultipleGestureSolutionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZX.ZXMultipleGestureSolutionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZXMultipleGestureSolutionDemo;
+			};
+			name = Debug;
+		};
+		2485568F1FD5427F004CE728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZXMultipleGestureSolutionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZX.ZXMultipleGestureSolutionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZXMultipleGestureSolutionDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		248556561FD5427F004CE728 /* Build configuration list for PBXProject "ZXMultipleGestureSolutionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248556851FD5427F004CE728 /* Debug */,
+				248556861FD5427F004CE728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		248556871FD5427F004CE728 /* Build configuration list for PBXNativeTarget "ZXMultipleGestureSolutionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248556881FD5427F004CE728 /* Debug */,
+				248556891FD5427F004CE728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2485568A1FD5427F004CE728 /* Build configuration list for PBXNativeTarget "ZXMultipleGestureSolutionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2485568B1FD5427F004CE728 /* Debug */,
+				2485568C1FD5427F004CE728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2485568D1FD5427F004CE728 /* Build configuration list for PBXNativeTarget "ZXMultipleGestureSolutionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2485568E1FD5427F004CE728 /* Debug */,
+				2485568F1FD5427F004CE728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 248556531FD5427F004CE728 /* Project object */;
+}
